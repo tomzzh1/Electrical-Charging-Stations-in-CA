@@ -13,9 +13,6 @@ gas_station <- gas_station %>%
     select(-`Highway Exists`) %>%
     mutate(Type = 1)
 
-Good_key <- "AIzaSyAPj9oRq3gB3BOjJrFO5sLoXZy4F25qCbU"
-
-register_google(key = Good_key, account_type = "standard", day_limit = 100)
 
 
 temp <- data %>%
